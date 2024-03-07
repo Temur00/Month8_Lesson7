@@ -1,4 +1,5 @@
 "use client";
+import Times from "@/components/Times";
 import React from "react";
 
 const HomePage = () => {
@@ -8,7 +9,7 @@ const HomePage = () => {
         Toshkent shahri
       </p>
       <div className="flex justify-between pt-5">
-        <p className="font-semibold text-2xl">06 Mart 2024 - 25 Shaʼbon 1445</p>
+        <p className="font-semibold text-2xl">07 Mart 2024 - 25 Shaʼbon 1445</p>
         <div>
           <button className="rounded-md border-2 p-1 w-20 border-sky-700 hover:bg-sky-700 hover:text-white transition duration-150 ease-out hover:ease-in">
             Bugun
@@ -30,6 +31,7 @@ const HomePage = () => {
           <option value="zоmin">Zоmin</option>
         </select>
       </div>
+      <Times />
     </div>
   );
 };
