@@ -14,7 +14,7 @@ const HomePage = () => {
           <button className="rounded-md border-2 p-1 w-20 border-sky-700 hover:bg-sky-700 hover:text-white transition duration-150 ease-out hover:ease-in">
             Bugun
           </button>
-          <button className="rounded-md border-2 p-1 w-20 border-sky-700 hover:bg-sky-700 hover:text-white transition duration-150 ease-out hover:ease-in">
+          <button className="rounded-md border-sky-700 border-2 p-1 w-20 bg-sky-700 hover:text-white transition duration-150 ease-out hover:ease-in">
             Haftalik
           </button>
           <button className="rounded-md border-2 p-1 w-20 border-sky-700 hover:bg-sky-700 hover:text-white transition duration-150 ease-out hover:ease-in">
